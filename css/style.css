@@ -3,3 +3,24 @@
 margin: 0;
 box-sizing: border-box;
 }
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+#title{
+    text-align: center;
+    background-color: gainsboro;
+    margin-top: 5vh;
+    padding: 29px;
+
+}
+#title p{
+    margin-top: 2vh;
+}
+#image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
